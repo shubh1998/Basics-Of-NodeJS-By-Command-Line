@@ -1,0 +1,5 @@
+
+create database assignment;
+
+create table account(aid int primary key AUTO_INCREMENT, name varchar(255), 
+			emailid varchar(255), password varchar(255), creationdate timestamp default now());

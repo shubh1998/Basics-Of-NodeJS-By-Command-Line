@@ -1,0 +1,12 @@
+
+create database assignment;
+
+
+create table user(uid int primary key AUTO_INCREMENT, name varchar(255), 
+		email varchar(255), password varchar(255));
+
+
+
+create table mail(mailid int primary key AUTO_INCREMENT, semail varchar(255), remail varchar(255), 
+		subject varchar(255), message varchar(2000), maildate timestamp default now(), 
+		password varchar(255));
